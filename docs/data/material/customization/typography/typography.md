@@ -252,6 +252,8 @@ You need to make sure that the typings for the theme's `typography` variants and
 <!-- Tested with packages/mui-material/test/typescript/augmentation/typographyVariants.spec.ts -->
 
 ```ts
+import mui from '@mui/material/styles';
+
 declare module '@mui/material/styles' {
   interface TypographyVariants {
     poster: React.CSSProperties;
